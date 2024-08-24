@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,9 +24,9 @@
         .container {
             background: #fff;
             border-radius: 15px;
-            padding: 30px;
+            padding: 20px;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-            max-width: 600px;
+            max-width: 90%;
             position: relative;
             z-index: 1;
             overflow: hidden;
@@ -49,23 +50,23 @@
         }
 
         .title {
-            font-size: 2.5em;
-            margin-bottom: 20px;
+            font-size: 2em;
+            margin-bottom: 15px;
             color: #ff4081;
             font-weight: bold;
             animation: fadeInDown 1.5s ease;
         }
 
         .message {
-            font-size: 1.2em;
-            margin-bottom: 20px;
+            font-size: 1em;
+            margin-bottom: 15px;
             color: #333;
-            line-height: 1.6;
+            line-height: 1.4;
             animation: fadeInUp 1.5s ease;
         }
 
         .heart {
-            font-size: 2.5em;
+            font-size: 2em;
             color: #ff4081;
             animation: pulse 1s infinite;
         }
@@ -76,21 +77,21 @@
         }
 
         .image {
-            margin-top: 20px;
+            margin-top: 15px;
             animation: bounceIn 1s ease;
         }
 
         .image img {
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             object-fit: cover;
             border-radius: 50%;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
         }
 
         .signature {
-            font-size: 1em;
-            margin-top: 20px;
+            font-size: 0.9em;
+            margin-top: 15px;
             color: #555;
             animation: fadeInUp 1.5s ease;
         }
@@ -99,10 +100,10 @@
             background-color: #ff4081;
             color: #fff;
             border: none;
-            padding: 10px 20px;
-            font-size: 1.1em;
+            padding: 10px 15px;
+            font-size: 1em;
             border-radius: 5px;
-            margin-top: 20px;
+            margin-top: 15px;
             cursor: pointer;
             transition: background-color 0.3s ease, transform 0.3s ease;
             animation: fadeInUp 1.5s ease;
@@ -135,8 +136,8 @@
 
         .flower {
             position: absolute;
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             background: url('FOTO1.PNG') no-repeat center;
             background-size: contain;
             animation: fall 10s linear infinite;
@@ -184,21 +185,21 @@
         /* Responsive Design */
         @media (max-width: 600px) {
             .title {
-                font-size: 2em;
+                font-size: 1.8em;
             }
 
             .message {
-                font-size: 1em;
+                font-size: 0.9em;
             }
 
             .next-btn, .start-btn, .send-btn, .video-btn {
-                font-size: 1em;
+                font-size: 0.9em;
                 padding: 8px 16px;
             }
 
             .image img {
-                width: 120px;
-                height: 120px;
+                width: 90px;
+                height: 90px;
             }
         }
     </style>
@@ -223,7 +224,7 @@
     <div class="container intro">
         <div class="title">Halo Ex Hehehe!</div>
         <div class="message">Kasih masukki namata biar bisaki lanjut:</div>
-        <input type="text" id="userName" placeholder="*Nama Lengkap" style="padding: 10px; font-size: 1.2em; border-radius: 5px; border: 1px solid #ddd; width: calc(100% - 24px); box-sizing: border-box;">
+        <input type="text" id="userName" placeholder="*Nama Lengkap" style="padding: 10px; font-size: 1.1em; border-radius: 5px; border: 1px solid #ddd; width: calc(100% - 22px); box-sizing: border-box;">
         <button class="start-btn" onclick="startExperience()">Start</button>
     </div>
 
@@ -322,4 +323,3 @@
     </script>
 </body>
 </html>
-
